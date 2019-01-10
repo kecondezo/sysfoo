@@ -41,4 +41,4 @@ jobs:
       - run: mvn integration-test
       - store_artifacts:
           path: ~/repo/target/sysfoo.war
-          destination: artifact-file
+          destination: artifact-file/sysfoo.war
